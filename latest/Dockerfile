@@ -18,4 +18,6 @@ RUN set -xe \
                             gcc \
                             g++ \
                             python \
-                            libtool
+                            libtool \
+    # Update npm to latest version
+    && npm i -g npm
