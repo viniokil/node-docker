@@ -23,11 +23,11 @@ Installed applications list::
 
 ## Tags
 
-| docker image                | NodeJS version |
-| --------------------------- | -------------- |
-| viniokil/node-docker:8      | 8              |
-| viniokil/node-docker:10     | 10             |
-| viniokil/node-docker:latest | 11             |
+| docker image         | NodeJS version |
+| -------------------- | -------------- |
+| viniokil/node:8      | 8              |
+| viniokil/node:10     | 10             |
+| viniokil/node:latest | 11             |
 
 ## How can I use this?
 
