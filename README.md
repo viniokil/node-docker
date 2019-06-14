@@ -19,6 +19,9 @@ Installed applications list::
 - `ssh-client`
 - `rsync`
 - `python`
+- `httpie`
+- `jq`
+- `netcat-openbsd`
 - `compile tools`
 
 ## Tags
@@ -27,7 +30,9 @@ Installed applications list::
 | -------------------- | -------------- |
 | viniokil/node:8      | 8              |
 | viniokil/node:10     | 10             |
-| viniokil/node:latest | 11             |
+| viniokil/node:11     | 11             |
+| viniokil/node:lts    | 10             |
+| viniokil/node:latest | 12             |
 
 ## How can I use this?
 
