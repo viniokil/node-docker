@@ -10,6 +10,9 @@ RUN set -xe \
                             git \
                             rsync \
                             openssh-client \
+                            httpie \
+                            jq \
+                            netcat-openbsd \
                             autoconf \
                             automake \
                             libpng-dev \
@@ -21,4 +24,5 @@ RUN set -xe \
                             libtool \
     # Update npm to latest version
     && npm i -g npm
+
 WORKDIR /app
