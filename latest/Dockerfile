@@ -21,3 +21,5 @@ RUN set -xe \
                             libtool \
     # Update npm to latest version
     && npm i -g npm
+
+WORKDIR /app
