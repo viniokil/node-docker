@@ -1,7 +1,6 @@
-FROM node:alpine
+FROM node:12-alpine
 
 ENV PS1='\[\033[1;32m\]📗  \[\033[1;36m\][\u@\h] \[\033[1;34m\]\w\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]'
-
 
 RUN set -xe \
     && apk add --no-cache \
@@ -10,6 +9,9 @@ RUN set -xe \
                             git \
                             rsync \
                             openssh-client \
+                            httpie \
+                            jq \
+                            netcat-openbsd \
                             autoconf \
                             automake \
                             libpng-dev \

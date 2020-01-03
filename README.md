@@ -30,9 +30,10 @@ Installed applications list::
 | -------------------- | -------------- |
 | viniokil/node:8      | 8              |
 | viniokil/node:10     | 10             |
-| viniokil/node:11     | 11             |
-| viniokil/node:lts    | 10             |
-| viniokil/node:latest | 12             |
+| viniokil/node:12     | 12             |
+| viniokil/node:13     | 13             |
+| viniokil/node:lts    | 12             |
+| viniokil/node:latest | 13             |
 
 ## How can I use this?
 
